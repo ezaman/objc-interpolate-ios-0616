@@ -11,6 +11,7 @@
 		53F8F009666421D80AABC906 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2CC712EB70552BAE4FECAE /* FISAppDelegate.m */; };
 		79894A6E6580BEECDFDBBCC6 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 44182D237F70436518F039FD /* LaunchScreen.xib */; };
 		8E8E5DCCA6FAC9536D094445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A69D0BDB7FF21F2F4067EE0 /* Main.storyboard */; };
+		8FB745FF1CE0A47D00A9FA0E /* FISAppDelegate2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB745FE1CE0A47D00A9FA0E /* FISAppDelegate2.m */; };
 		97E4A3817DF147BD3C41FA1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00AD3105CC245C1E899C348F /* Images.xcassets */; };
 		A41A87C1FA2BCA0A2020B342 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C484DD1D2743F0871540518 /* libPods-unit_tests.a */; };
 		CE27D72ECDBA7B05906F07E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBF0460C581EF74EBE2538E /* Foundation.framework */; };
@@ -37,6 +38,7 @@
 		6AAFFCCA9E61C54015E2BB0D /* objc-interpolate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "objc-interpolate-Info.plist"; sourceTree = "<group>"; };
 		7A69D0BDB7FF21F2F4067EE0 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7C484DD1D2743F0871540518 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB745FE1CE0A47D00A9FA0E /* FISAppDelegate2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate2.m; sourceTree = "<group>"; };
 		A3CB471F2DEE87EB0AD380B1 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		A8471FB2074AB65124901EF6 /* objc-interpolate-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objc-interpolate-Prefix.pch"; sourceTree = "<group>"; };
 		ADBF0460C581EF74EBE2538E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -146,6 +148,7 @@
 			children = (
 				B52328B63769EEB15B6E6794 /* FISAppDelegate.h */,
 				1D2CC712EB70552BAE4FECAE /* FISAppDelegate.m */,
+				8FB745FE1CE0A47D00A9FA0E /* FISAppDelegate2.m */,
 				7A69D0BDB7FF21F2F4067EE0 /* Main.storyboard */,
 				0ABF55C323C8284EAAFCB257 /* Resources */,
 			);
@@ -302,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB745FF1CE0A47D00A9FA0E /* FISAppDelegate2.m in Sources */,
 				53F8F009666421D80AABC906 /* FISAppDelegate.m in Sources */,
 				79894A6E6580BEECDFDBBCC6 /* LaunchScreen.xib in Sources */,
 				02CF24DF08D977E9AB8E8D65 /* main.m in Sources */,
